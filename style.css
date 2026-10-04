@@ -52,12 +52,12 @@ header h1{
 }
 .todo-list{
     margin: 20px auto;
-    margin-inline:8px;
-    max-width: 600px;
     padding: 20px;
+    width:100%;
     background-color: #fff;
     border: 2px solid #ddd;
     border-radius:8px;
+    box-sizing: border-box;
 }
 .todo-item{
     display: flex;
